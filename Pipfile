@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+autopep8 = "*"
+rope = "*"
+ipykernel = "*"
+pytest = "*"
+
+[packages]
+pandas = "*"
+requests = "*"
+tqdm = "*"
+sklearn = "*"
+matplotlib = "*"
+seaborn = "*"
+wordcloud = "*"
+numpy = "*"
+xgboost = "*"
+jupyter = "*"
+python-dotenv = "*"
+apache-airflow = "*"
+autopep8 = "*"
+
+[requires]
+python_version = "3.7.7"
